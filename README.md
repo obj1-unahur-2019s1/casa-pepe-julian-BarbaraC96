@@ -9,12 +9,16 @@ Implementar, además de los objetos que representan cada cosa, un objeto que rep
 - `comprar(cosa)`: registra que se ha comprado una cosa.
 - `cantidadDeCosasCompradas()`: indica ... eso.
 - `tieneComida()`: indica si compró algo que es comida al menos una vez.
-- `vieneDeEquiparse()`: indica si la _última_ cosa que se compró es un electrodoméstico, o bien vale más de 5000 pesos.
-- `esDerrochona()`: indica si el importe total de las cosas compradas es de 9000 pesos o más.
+- `vieneDeEquiparse()`: indica si la _última_ cosa que se compró es un electrodoméstico, 
+o bien vale más de 5000 pesos.
+- `esDerrochona()`: indica si el importe total de las cosas compradas es de 9000 pesos 
+o más.
 - `compraMasCara()`: retorna la cosa comprada de mayor valor.
-- `electrodomésticosComprados()`: devuelve un objeto que contiene todas las cosas compradas que son electrodomésticos. 
+- `electrodomésticosComprados()`: devuelve un objeto que contiene 
+todas las cosas compradas que son electrodomésticos. 
 - `malaEpoca()`: indica si todas las cosas compradas son comida.
-- `queFaltaComprar(lista)`: recibe una lista de cosas y devuelve las cosas de esa lista que aún no se han comprado. <br>
+- `queFaltaComprar(lista)`: recibe una lista de cosas y devuelve las cosas
+ de esa lista que aún no se han comprado. <br>
   **Atención**: es una pregunta. No se pide que se compren. 
 - `faltaComida()`: indica si se han comprado menos de 2 cosas que son comida.
 
@@ -33,8 +37,13 @@ Pregunta: para lograr que la casa pueda comprar estas cosas nuevas, ¿qué hubo 
 
 
 ## Cuenta bancaria
-Agreguemos al modelo objetos que representan diferentes _cuentas bancarias_. Estos objetos deben entender tres mensajes: `depositar(importe)`, `extraer(importe)`, y `saldo()`. 
-Al objeto que representa la casa hay que agregarle un atributo, que es la cuenta que se va a usar para pagar los gastos que se hagan. Por lo tanto, al comprar una cosa, hay que también extraer de la cuenta el precio de la cosa comprada.     
+Agreguemos al modelo objetos que representan diferentes _cuentas bancarias_.
+ Estos objetos deben entender tres mensajes: `depositar(importe)`,
+  `extraer(importe)`, y `saldo()`. 
+Al objeto que representa la casa hay que agregarle un atributo,
+que es la cuenta que se va a usar para pagar los gastos que se hagan.
+Por lo tanto, al comprar una cosa,
+hay que también extraer de la cuenta el precio de la cosa comprada.     
 
 
 Incluir tres cuentas:
